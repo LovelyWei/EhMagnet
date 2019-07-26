@@ -5,7 +5,7 @@ import os
 import threading
 
 # 这个只能爬有种子的画集,没种子的自求多福慢慢下吧
-# 打开收藏有绿色
+# 打开收藏有绿色下载箭头那些
 
 header={
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
@@ -29,7 +29,7 @@ def getList(header,i):
     subSoup = BeautifulSoup(subRes.text,'lxml')
     findArrary = subSoup.find_all(title="Show torrents")
     for r in findArrary:
-        getMagnet(r.parent['href'],header)
+        threading.Thread(target=getMagnet,args=(r.parent['href'],header,)).start()
 
 def getMagnet(url,header):
     while 1:
