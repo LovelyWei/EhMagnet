@@ -5,8 +5,8 @@
 # 食用指南
  - 将代码中的cookie 替换成你的cookie
  
- ```
  [![PM1]M]6LQ_@XA0)IXIJ9IZQ.png](https://i.loli.net/2019/07/26/5d3aa7d8d8f4768680.png)](https://i.loli.net/2019/07/26/5d3aa7d8d8f4768680.png)
+ ```
 
 按F12打开开发者工具
 
