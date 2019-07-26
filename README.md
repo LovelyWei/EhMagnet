@@ -7,6 +7,7 @@
  
 ![pic.png](https://i.loli.net/2019/07/26/5d3aa7d8d8f4768680.png)
  ```
+打开Ex
 
 按F12打开开发者工具
 
